@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %} Bienvenido {% endblock %}
+{% block content %}
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Libreria</h1>
+        <p class="col-md-8 fs-4">
+            Este es un sitio web que está hecho con Django para practicar el uso
+            de este framework. El proyecto trata sobre una libreria donde se
+            puede hacer operaciones CRUD.
+        </p>
+        <a name="" id="" class="btn btn-primary" href="{% url 'list_books' %}" role="button">Empezar</a>
+        
+    </div>
+</div>
+
+{% endblock %}
